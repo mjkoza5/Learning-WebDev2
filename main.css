@@ -1,9 +1,25 @@
 body {
   background:#999;
   font-family:arial;
-  
+
 }
 
-p {
+h1 {
   background:#456;
+  color:lime;
+  padding:10px 0px 15px 50px; //Top, Right, Bottom, Left (goes clockwise)
+}
+
+img {
+  padding: 10px 50px;
+
+}
+
+//.img_css_ex {
+  padding: 100px 300px;
+}
+
+
+.style_line {      //.style_line is a "class"
+  padding: 100px 300px;
 }
