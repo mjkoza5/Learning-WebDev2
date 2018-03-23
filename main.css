@@ -2,25 +2,51 @@ body {
   margin: 0;
   background:#999;
   font-family:arial;
-
 }
 
-h1 {
-  margin: 12;
+
+.h1_body {
+  margin: 0;
   background:#456;
   color:lime;
   padding:10px 0px 10px 50px; //Top, Right, Bottom, Left (goes clockwise)
 
 }
 
-nav  ul li {
-  display:inline-block;
-  padding: 5px 10;
+header {
+  background:#456;
+  margin:1%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gold;
+}
+
+header h1 {
+  background:#456;
+  color:lime;
+  display: inline-block;
+}
+
+nav ul {
+  margin: 0;
 
 }
 
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  background:lime;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+}
+
 a {
-  color:gold;
+  color: orange;
+}
+
+nav ul li a {
+  color:#456;
 
 }
 
@@ -30,10 +56,17 @@ img {
 }
 
 .img_css_ex {
+  border-style: solid;
+  border-width: 2px;
+  border-color: gold;
   padding: 10px 10px 10px 300px;
 }
 
 
 .style_line {
-  padding: 100px 300px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: salmon;
+  padding: 20px 300px;
+  margin-left: 1%;
 }
