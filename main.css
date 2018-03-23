@@ -1,25 +1,39 @@
 body {
+  margin: 0;
   background:#999;
   font-family:arial;
 
 }
 
 h1 {
+  margin: 12;
   background:#456;
   color:lime;
-  padding:10px 0px 15px 50px; //Top, Right, Bottom, Left (goes clockwise)
+  padding:10px 0px 10px 50px; //Top, Right, Bottom, Left (goes clockwise)
+
+}
+
+nav  ul li {
+  display:inline-block;
+  padding: 5px 10;
+
+}
+
+a {
+  color:gold;
+
 }
 
 img {
   padding: 10px 50px;
-
+  border-color: yellow;
 }
 
-//.img_css_ex {
-  padding: 100px 300px;
+.img_css_ex {
+  padding: 10px 10px 10px 300px;
 }
 
 
-.style_line {      //.style_line is a "class"
+.style_line {
   padding: 100px 300px;
 }
