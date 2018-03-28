@@ -1,1 +1,28 @@
+body {
+  margin: 0;
+  font-family: arial;
+}
 
+header {
+  background-color: salmon;
+  color: white;
+  margin:1%;
+
+}
+
+header h1 {
+  padding-left: 2.1%;
+  display: inline-block;
+}
+
+nav ul {
+  color: grey;
+  
+}
+
+nav ul li {
+  background-color: #999;
+  display: inline-block;
+  padding: 5px 5px 5px 5px;
+
+}

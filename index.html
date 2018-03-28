@@ -35,21 +35,56 @@
 <h3>Search Engines in an Unordered List (ul tags with li tags between them making the bullets tags)</h3>
       <ul>
           <li>item1</li>
-          <li><a href="http://google.com">google.com</a></li>
-          <li><em><a href="http://bing.com">bing.com</a></em></li>
-          <li><strong><a href="http://yahoo.com">yahoo.com</a></strong></li>
-          <li><a href="http://aol.com">aol.com</a></li>
-          <li><a href="http://ask.com">ask.com</a></li>
+          <li><a href="http://google.com" target="_blank">google.com</a></li>
+          <li><em><a href="http://bing.com" target="_blank">bing.com</a></em></li>
+          <li><strong><a href="http://yahoo.com" target="_blank">yahoo.com</a></strong></li>
+          <li><a href="http://aol.com" target="_blank">aol.com</a></li>
+          <li><a href="http://ask.com" target="_blank">ask.com</a></li>
       </ul>
 
 <h3>Best Web Dev Channels on Youtube</h3>
       <ol>
-
-          <li><a href="https://www.youtube.com/user/learncodeacademy/videos">Learn Code Aceademy</a></li>
-          <li><a href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA">Traversy Media</a></li>
-          <li><a href="https://www.youtube.com/user/DevTipsForDesigners/featured">DevTips</a></li>
+          <li><a href="https://www.youtube.com/user/learncodeacademy/videos" target="_blank">Learn Code Aceademy</a></li>
+          <li><a href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA" target="_blank">Traversy Media</a></li>
+          <li><a href="https://www.youtube.com/user/DevTipsForDesigners/featured" target="_blank">DevTips</a></li>
           <li></li>
       </ol>
+
+      <!--Forms-->
+      <form action="process.php" method="post">
+          <div>
+              <label>First Name</label>
+              <input type="text" enter_name="first-name">
+          </div>
+          <br>
+          <div>
+              <label>Email</label>
+              <input type="email" name="email">
+          </div>
+          <br>
+          <div>
+              <label>Message</label>
+              <textarea name="message" id="" cols="30" rows="10"></textarea>
+          </div>
+          <br>
+          <div>
+              <!--Select List aka dropdown-->
+              <label>Gender</label>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+          </div>
+          <br>
+          <div>
+              <label>Age</label>
+              <input type="number" name="Age" value="50">
+          </div>
+          <br>
+          <div>
+              <label>Birthday</label>
+              <input type="date" name="birthday">
+          </div>
+      </form>
 
     </body>
 
