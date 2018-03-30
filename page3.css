@@ -5,6 +5,9 @@ body {
 
 header {
   background-color: salmon;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
   color: white;
   margin:1%;
 
@@ -17,12 +20,16 @@ header h1 {
 
 nav ul {
   color: grey;
-  
+  margin: 0;
 }
 
 nav ul li {
   background-color: #999;
   display: inline-block;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 12px;
   padding: 5px 5px 5px 5px;
-
+  margin-bottom: 10px;
 }
