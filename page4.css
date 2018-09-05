@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background: #999;
+  font-family: helvetica, arial;
+}
+
+header {
+  text-align: center;
+  background: #456;
+  border-style: solid;
+  border-color: gold;
+  border-width: 2px;
+  margin: 1% 20% 1% 20%;
+
+}
+
+header h1 {
+  text-decoration: underline;
+  color: turquoise;
+  display: inline-block;
+  margin-left: 2.1%;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 12px;
+  border-color: turquoise;
+  margin-bottom: 1%;
+  padding: 5px 5px 5px 5px;
+}
+
+nav ul li a {
+  color: #F0F8FF;
+}
+
+.box-1 {
+  float: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: turquoise;
+  border-radius: 20px;
+  margin: 1%;
+  padding: .5%;
+
+}

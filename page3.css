@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: arial;
+  font-family: helvetica, arial;
 }
 
 header {
@@ -20,7 +20,7 @@ header h1 {
 }
 
 nav ul {
-  color: grey;
+  
   margin: 0;
 }
 
@@ -41,6 +41,7 @@ nav ul li a {
 
 
 .box-1 {
+  text-align: left;
   float: center;
   border-width: 2px;
   border-style: solid;
@@ -58,6 +59,7 @@ nav ul li a {
 }
 
 .box-2 h4 {
+  color: hsl(0, 100%, 25%);
   text-decoration: underline;
   text-align: center;
 }
