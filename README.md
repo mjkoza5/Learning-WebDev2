@@ -1,2 +1,3 @@
 # Learning-WebDev2
-Going though the learning process of HTML, CSS, and potentially Javascript. Mainly just experimenting
+Going though the process of developing my skills in HTML, CSS, and potentially Javascript.
+ing
